@@ -1,0 +1,33 @@
+php artisan key:gen  =>>this with table 
+
+php artisan migrate
+
+composer install  =>new packages
+composer dump-autoload
+
+cp .\.env.example .env  =>create enviroment local if it is not 
+composer autoload
+
+https://laragon.org/index.html
+
+php artisan migrate
+
+Installation
+ edited this page on Mar 6 · 10 revisions
+Important
+
+The next steps are only valid for a fresh installation procedure, if you are performing an update on the package, please refers to the Updating section.
+
+1. Require the package
+On the root folder of your Laravel project, require the package using the composer tool:
+
+composer require jeroennoten/laravel-adminlte
+2. Install the package resources
+Install the required package resources using the next command:
+
+php artisan adminlte:install
+
+
+
+
+
