@@ -187,3 +187,18 @@ Run Queue
     php artisan queue:work --queue social,push
 Rework Queue
     php artisan queue:restart
+
+
+
+
+
+    Steps for Installation:
+The first step is to extract the file.
+Secondly cd to project folder
+Thirdly ‘ composer install ‘
+After ‘cp .env.example .env’
+Sixthly ‘ php artisan key:generate ‘
+then ” php artisan migrate “
+After ” php artisan db:seed “
+finally ” php artisan serve “
+
